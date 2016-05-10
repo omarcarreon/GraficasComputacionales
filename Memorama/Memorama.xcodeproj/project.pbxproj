@@ -1,0 +1,252 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AC3AE091C6AA96C0069C94F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3AE081C6AA96C0069C94F /* main.cpp */; };
+		1AC3AE101C6AA9800069C94F /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC3AE0F1C6AA9800069C94F /* GLUT.framework */; };
+		1AC3AE121C6AA9840069C94F /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC3AE111C6AA9840069C94F /* OpenGL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1AC3AE031C6AA96C0069C94F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1AC3AE051C6AA96C0069C94F /* Memorama */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Memorama; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AC3AE081C6AA96C0069C94F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1AC3AE0F1C6AA9800069C94F /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		1AC3AE111C6AA9840069C94F /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AC3AE021C6AA96C0069C94F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AC3AE121C6AA9840069C94F /* OpenGL.framework in Frameworks */,
+				1AC3AE101C6AA9800069C94F /* GLUT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AC3ADFC1C6AA96C0069C94F = {
+			isa = PBXGroup;
+			children = (
+				1AC3AE111C6AA9840069C94F /* OpenGL.framework */,
+				1AC3AE0F1C6AA9800069C94F /* GLUT.framework */,
+				1AC3AE071C6AA96C0069C94F /* Memorama */,
+				1AC3AE061C6AA96C0069C94F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AC3AE061C6AA96C0069C94F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AC3AE051C6AA96C0069C94F /* Memorama */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AC3AE071C6AA96C0069C94F /* Memorama */ = {
+			isa = PBXGroup;
+			children = (
+				1AC3AE081C6AA96C0069C94F /* main.cpp */,
+			);
+			path = Memorama;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AC3AE041C6AA96C0069C94F /* Memorama */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AC3AE0C1C6AA96C0069C94F /* Build configuration list for PBXNativeTarget "Memorama" */;
+			buildPhases = (
+				1AC3AE011C6AA96C0069C94F /* Sources */,
+				1AC3AE021C6AA96C0069C94F /* Frameworks */,
+				1AC3AE031C6AA96C0069C94F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Memorama;
+			productName = Memorama;
+			productReference = 1AC3AE051C6AA96C0069C94F /* Memorama */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AC3ADFD1C6AA96C0069C94F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = OmarCarreon;
+				TargetAttributes = {
+					1AC3AE041C6AA96C0069C94F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 1AC3AE001C6AA96C0069C94F /* Build configuration list for PBXProject "Memorama" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1AC3ADFC1C6AA96C0069C94F;
+			productRefGroup = 1AC3AE061C6AA96C0069C94F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AC3AE041C6AA96C0069C94F /* Memorama */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AC3AE011C6AA96C0069C94F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AC3AE091C6AA96C0069C94F /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1AC3AE0A1C6AA96C0069C94F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1AC3AE0B1C6AA96C0069C94F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1AC3AE0D1C6AA96C0069C94F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1AC3AE0E1C6AA96C0069C94F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AC3AE001C6AA96C0069C94F /* Build configuration list for PBXProject "Memorama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AC3AE0A1C6AA96C0069C94F /* Debug */,
+				1AC3AE0B1C6AA96C0069C94F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AC3AE0C1C6AA96C0069C94F /* Build configuration list for PBXNativeTarget "Memorama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AC3AE0D1C6AA96C0069C94F /* Debug */,
+				1AC3AE0E1C6AA96C0069C94F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AC3ADFD1C6AA96C0069C94F /* Project object */;
+}
